@@ -1,0 +1,19 @@
+{
+  "name": "nodeplayground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kabindrr <chaina_kabindra@yahoo.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "dev": "nodemon --env-file=.env server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.7.0",
+    "morgan": "^1.10.0"
+  }
+}

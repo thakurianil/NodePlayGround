@@ -1,0 +1,60 @@
+@apiEP = http://localhost:8001/v1/users
+@apiNTDL = http://localhost:8001/v1/tasks
+
+###
+GET {{apiEP}}/login
+Content-Type: application/json
+
+{
+    "name":"Kabindra Ranabhat",
+    "password":"as"
+}
+
+
+
+###
+POST {{apiEP}}/post 
+Content-Type: application/json
+
+
+{
+    "name":"Kabindra Ranabhat",
+    "email":"a@gmail.com"
+
+}
+
+###
+PATCH  {{apiEP}}/patch
+Content-Type: application/json
+
+{
+      "name":"Kabindra Ranabhat",
+    "email":"a@gmail.com",
+    "phone":1234
+}
+
+###
+PUT {{apiEP}}/put
+Content-Type: application/json
+
+{
+     "name":"Lyous Maharjan",
+    "email":"l@gmail.com",
+    "phone":1234,
+    "password":"as"
+}
+
+
+###
+GET {{apiNTDL}}
+
+###
+DELETE {{apiNTDL}}/delete/4
+
+
+###
+PATCH {{apiNTDL}}/patch/3
+
+{
+    "type":"bad"
+}
