@@ -1,4 +1,4 @@
-@apiEP = http://localhost:8001/v1/users
+@apiEP = http://localhost:27017/ntd-API/users
 @apiNTDL = http://localhost:8001/v1/tasks
 
 ###
@@ -9,7 +9,6 @@ Content-Type: application/json
     "name":"Kabindra Ranabhat",
     "password":"as"
 }
-
 
 
 ###
@@ -46,10 +45,10 @@ Content-Type: application/json
 
 
 ###
-GET {{apiNTDL}}
+GET {{apiEP}}
 
 ###
-DELETE {{apiNTDL}}/delete/4
+DELETE {{apiNTDL}}/delete/3
 
 
 ###
