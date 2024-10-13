@@ -6,7 +6,7 @@ GET {{apiEP}}/login
 Content-Type: application/json
 
 {
-    "name":"Kabindra Ranabhat",
+    "name":"Anil Khand",
     "password":"as"
 }
 
