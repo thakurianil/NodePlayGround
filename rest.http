@@ -17,7 +17,7 @@ Content-Type: application/json
 
 
 {
-    "name":"Kabindra Ranabhat",
+    "name":"Anil Khand",
     "email":"anil@gmail.com"
 
 }
@@ -27,7 +27,7 @@ PATCH  {{apiEP}}/patch
 Content-Type: application/json
 
 {
-      "name":"Kabindra Ranabhat",
+      "name":"Anil Khand",
     "email":"a@gmail.com",
     "phone":1234
 }
