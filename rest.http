@@ -29,7 +29,7 @@ Content-Type: application/json
 {
       "name":"Anil Khand",
     "email":"a@gmail.com",
-    "phone":1234
+    "phone":1234567
 }
 
 ###
